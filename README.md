@@ -1,13 +1,16 @@
 # NETPRO  
-[![](https://badge.fury.io/js/netpro.svg)](https://www.npmjs.com/package/netpro)  
+[![](https://badge.fury.io/js/netpro.svg)](https://www.npmjs.com/package/netpro)
+[![Build Status](https://travis-ci.org/Joaquin6/netpro.svg?branch=master)](https://travis-ci.org/Joaquin6/netpro)
 
-Node.js internet protocol address utility
+Node.js Internet protocol address utility
 
 ## Installation
 
 ###  npm
 ```shell
 npm install netpro
+# OR
+yarn add netpro
 ```
 
 ### git
