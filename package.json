@@ -19,6 +19,10 @@
     "protocol",
     "node"
   ],
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
   "directories": {
     "lib": "lib",
     "test": "test"
