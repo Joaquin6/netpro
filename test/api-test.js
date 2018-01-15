@@ -81,20 +81,20 @@ describe('IP library for node.js', function() {
     });
     it('should or bits in ipv6 addresses', function() {
       assert.equal(netpro.or('::ff', '::abcd:dcba:abcd:dcba'),
-                   '::abcd:dcba:abcd:dcff');
+                  '::abcd:dcba:abcd:dcff');
     });
     it('should or bits in mixed addresses', function() {
       assert.equal(netpro.or('0.0.0.255', '::abcd:dcba:abcd:dcba'),
-                   '::abcd:dcba:abcd:dcff');
+                  '::abcd:dcba:abcd:dcff');
     });
   });
 
   describe('mask() method', function() {
     it('should mask bits in address', function() {
-      assert
-        .equal(netpro.mask('192.168.1.134', '255.255.255.0'), '192.168.1.0');
-      assert
-        .equal(netpro.mask('192.168.1.134', '::ffff:ff00'), '::ffff:c0a8:100');
+      assert.equal(netpro.mask('192.168.1.134', '255.255.255.0'),
+                  '192.168.1.0');
+      assert.equal(netpro.mask('192.168.1.134', '::ffff:ff00'),
+                  '::ffff:c0a8:100');
     });
 
     it('should not leak data', function() {
