@@ -1,6 +1,6 @@
 {
   "name": "netpro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Joaquin Briceno <joaquinbriceno1@gmail.com>",
   "homepage": "https://github.com/Joaquin6/netpro",
   "description": "Node.js internet protocol address utility",
